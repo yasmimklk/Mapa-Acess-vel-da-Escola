@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Mapa acessível da escola com localização e descrição dos ambientes.">
+
+    <title>Mapa Acessível da Escola</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>🏫 Mapa Acessível da Escola</h1>
+            <p>Encontre os ambientes escolares de maneira simples e organizada.</p>
+        </div>
+    </header>
+
+    <!-- Menu de navegação -->
+    <nav aria-label="Menu principal">
+        <div class="container">
+            <ul>
+                <li><a href="#mapa">Mapa</a></li>
+                <li><a href="#ambientes">Ambientes</a></li>
+                <li><a href="#orientacoes">Orientações</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Apresentação -->
+        <section class="container introducao">
+            <h2>Bem-vindo à nossa escola!</h2>
+            <p>
+                Este mapa apresenta os principais espaços da escola.
+                Consulte os nomes, símbolos e descrições para encontrar
+                o ambiente que procura.
+            </p>
+        </section>
+
+        <!-- Mapa -->
+        <section id="mapa" class="container">
+            <h2>🗺️ Mapa dos ambientes</h2>
+
+            <p>
+                Observe a organização ilustrativa dos espaços escolares.
+                O mapa não representa uma planta arquitetônica real.
+            </p>
+
+            <div class="mapa">
+
+                <div class="ambiente entrada">
+                    <span aria-hidden="true">🏫</span>
+                    <strong>Entrada</strong>
+                    <small>Acesso principal</small>
+                </div>
+
+                <div class="ambiente secretaria">
+                    <span aria-hidden="true">🏢</span>
+                    <strong>Secretaria</strong>
+                    <small>Atendimento</small>
+                </div>
+
+                <div class="ambiente sala">
+                    <span aria-hidden="true">📚</span>
+                    <strong>Sala de aula</strong>
+                    <small>Aprendizagem</small>
+                </div>
+
+                <div class="ambiente biblioteca">
+                    <span aria-hidden="true">📖</span>
+                    <strong>Biblioteca</strong>
+                    <small>Leitura</small>
+                </div>
+
+                <div class="ambiente banheiro">
+                    <span aria-hidden="true">🚻</span>
+                    <strong>Banheiro</strong>
+                    <small>Higiene</small>
+                </div>
+
+                <div class="ambiente refeitorio">
+                    <span aria-hidden="true">🍽️</span>
+                    <strong>Refeitório</strong>
+                    <small>Alimentação</small>
+                </div>
+
+                <div class="ambiente patio">
+                    <span aria-hidden="true">🌳</span>
+                    <strong>Pátio</strong>
+                    <small>Convivência</small>
+                </div>
+
+                <div class="ambiente professores">
+                    <span aria-hidden="true">👩‍🏫</span>
+                    <strong>Sala dos professores</strong>
+                    <small>Equipe escolar</small>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Descrição dos ambientes -->
+        <section id="ambientes" class="container">
+            <h2>📍 Conheça os ambientes</h2>
+
+            <div class="lista-ambientes">
+
+                <article class="card">
+                    <h3>🏫 Entrada</h3>
+                    <p>
+                        É o acesso principal da escola.
+                        Por esse espaço, estudantes, funcionários
+                        e visitantes entram e saem.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>🏢 Secretaria</h3>
+                    <p>
+                        Local onde são realizados atendimentos,
+                        matrículas e consultas sobre informações escolares.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>📚 Sala de aula</h3>
+                    <p>
+                        Espaço onde acontecem as aulas,
+                        atividades e momentos de aprendizagem.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>📖 Biblioteca</h3>
+                    <p>
+                        Ambiente destinado à leitura,
+                        pesquisa e consulta de livros.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>🚻 Banheiro</h3>
+                    <p>
+                        Espaço destinado à higiene pessoal
+                        dos estudantes e funcionários.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>🍽️ Refeitório</h3>
+                    <p>
+                        Local onde os estudantes realizam
+                        suas refeições e lanches.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>🌳 Pátio</h3>
+                    <p>
+                        Espaço de convivência, descanso
+                        e recreação durante os intervalos.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>👩‍🏫 Sala dos professores</h3>
+                    <p>
+                        Ambiente utilizado pelos professores
+                        para planejamento e organização das aulas.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Orientações -->
+        <section id="orientacoes" class="container orientacoes">
+            <h2>🧭 Como utilizar o mapa?</h2>
+
+            <ul>
+                <li>Observe o nome de cada ambiente.</li>
+                <li>Utilize os símbolos para facilitar a identificação.</li>
+                <li>Leia as descrições para entender a função de cada espaço.</li>
+                <li>Utilize o menu para encontrar rapidamente as informações.</li>
+                <li>Se precisar, peça orientação a um funcionário da escola.</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>🏫 Mapa Acessível da Escola</p>
+            <p>Informação clara, orientação e inclusão para todos.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
